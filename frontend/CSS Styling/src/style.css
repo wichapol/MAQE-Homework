@@ -115,9 +115,3 @@ body {
 
     text-shadow: -2px -1px 1px #9B9B9B, 1px 2px 1px #9B9B9B;
 }
-
-@media screen and (min-width: 800px) {
-    .wrapper {
-        transform: scale(0.3);
-    }
-}
