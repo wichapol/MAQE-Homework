@@ -1,6 +1,6 @@
 # Wichapol Homework CSS-Styling
-my assignment click on :point_right: [:desktop_computer:](https://maqe-wichapol-hw-cssstyling.vercel.app/) \
-view reference image :point_right: [:framed_picture:](https://maqe.github.io/img/styling.png)
+my assignment click on :point_right: [:desktop_computer:](https://maqe-wichapol-homework-template-styling.vercel.app/) \
+view reference image :point_right: [:framed_picture:](http://maqe.github.io/img/template-2021.png)
 
 ## Stack
 
@@ -16,7 +16,7 @@ After reading the proposition thoroughly.
 Analyze layouts, and styles with Figma for design and planning, HTML and CSS writing.\
 View Drafts click on  \
 \
-:point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/qSQ0epsMjX2eZbwV4r0aKi/HW-MAQE_CSS-styling?node-id=0%3A1) \
+:point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/juyG9qZyVutTZW2dWfRArq/Template-and-Styling?node-id=0%3A1) \
 \
 **Step two**\
 \
