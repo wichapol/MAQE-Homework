@@ -8,7 +8,7 @@ After reading the proposition thoroughly.
 
 **Step one**\
 \
-Analyze layouts, and styles with Figma for design and planning, HTML and CSS writing on 1 hour .\
+Analyze layouts, and styles with Figma for design elements and planning, HTML and CSS writing on 1 hour .\
 View Drafts click on  \
 \
 :point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/qSQ0epsMjX2eZbwV4r0aKi/HW-MAQE_CSS-styling?node-id=0%3A1) \
