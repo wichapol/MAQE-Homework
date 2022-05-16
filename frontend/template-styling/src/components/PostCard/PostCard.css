@@ -1,8 +1,9 @@
 .post-card {
+    flex: 1 100%;
     box-shadow: 10px 10px 8px -5px #7777779c;
-  }
-  
-  .user-info {
+}
+
+.user-info {
     /* border: 2px solid rgb(174, 255, 0); */
     display: flex;
     flex-flow: row nowrap;
@@ -10,37 +11,37 @@
     align-items: center;
     gap: 15px;
     padding: 15px 15px 0 15px;
-  
+
     height: 60px;
-  }
-  
-  .user-info>img {
+}
+
+.user-info>img {
     height: 100%;
     border-radius: 100%;
-  }
-  
-  .user-info>strong {
+}
+
+.user-info>strong {
     color: #f66640;
-  }
-  
-  .content {
+}
+
+.content {
     /* s */
     display: flex;
     flex-flow: row-reverse nowrap;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 15px;
-  
+
     padding: 15px;
-  
-  }
-  
-  .content-text {
+
+}
+
+.content-text {
     display: flex;
     flex-flow: column wrap;
     gap: 15px;
-  }
-  
-  .content-text>* {
+}
+
+.content-text>* {
     margin: 0;
-  }
+}

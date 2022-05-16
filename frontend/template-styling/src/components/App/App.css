@@ -30,6 +30,12 @@
   align-items: center;
 }
 
+.card-container{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+
 .card-container>div:nth-child(odd) {
   background-color: #ffffff;
 }

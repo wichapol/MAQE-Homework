@@ -1,28 +1,54 @@
 import React from "react";
 import "./PostCard.css";
 
-const PostCard = ({postTitle, postBody, postImg, imgAlt }) => {
-  return (
-    <>
-      <div className="post-card">
-        <div className="user-info">
-          <img src="https://randomuser.me/api/portraits/men/1.jpg" />
-          <strong>Jason Bourne</strong>
-          <time>post on Saturday, May 9, 2020, 00:01</time>
-        </div>
-        <hr />
-        <div className="content">
-          <div className="content-text">
-            <h4>{ postTitle}</h4>
-            <p>
-             {postBody}
-            </p>
-          </div>
+const PostCard = ({
+  authorPost,
+  postTitle,
+  postBody,
+  postImg,
+  imgAlt,
+  postCreated,
+}) => {
+  // Create tag anuthor post
+  function anuthorInfo(anuthor) {
+    return (
+      Array.isArray(anuthor) &&
+      anuthor.map((value) => {
+        return (
+          <>
+            <img src={value.avatar_url} alt={`avatar ${value.id}`} />
+            <strong>{value.name}</strong>
+          </>
+        );
+      })
+    );
+  }
 
-          <img src={postImg} alt={imgAlt} />
-        </div>
+  // Create tag time posted on
+  function postedOn(strinDate) {
+    const options = { dateStyle: "full", timeStyle: "short", hourCycle: "h23" };
+    const d = new Date(strinDate);
+
+    const _postedOn = d.toLocaleString("default", options);
+    return <time>post on {_postedOn}</time>;
+  }
+
+  return (
+    <div className="post-card">
+      <div className="user-info">
+        {anuthorInfo(authorPost)}
+        {postedOn(postCreated)}
       </div>
-    </>
+      <hr />
+      <div className="content">
+        <div className="content-text">
+          <h4>{postTitle}</h4>
+          <p>{postBody}</p>
+        </div>
+
+        <img src={postImg} alt={imgAlt} />
+      </div>
+    </div>
   );
 };
 export default PostCard;

@@ -4,26 +4,27 @@ import PostCard from "../PostCard/PostCard";
 
 import "./App.css";
 
-import { getPosts } from "../api";
+import { getPosts, getAuthors } from "../api";
 
-function App() {
-  const [posts, setPosts] = useState([]);
+const App = () => {
+  const [posts, setPosts] = useState("");
+  const [authors, setAuthors] = useState("");
 
   useEffect(() => {
     (async () => {
-      const respons = await getPosts();
-      console.log(respons.status);
-      console.log(respons.statusText);
-      console.log(respons.data);
+      const promiseAll = await Promise.all([getPosts(), getAuthors()]);
+      const [responPost, responAuthors] = promiseAll;
+      console.log(responPost.status);
 
-      if (respons.status === 200) {
-        const dataPosts = respons.data;
-        setPosts(dataPosts);
+      if (responPost.status === 200 && responAuthors.status === 200) {
+        setPosts(responPost.data);
+        setAuthors(responAuthors.data);
       } else {
         alert("Cannot connect to server");
       }
     })(); //IIFE
   }, []);
+
   return (
     <div className="warpper">
       <header className="content-header">
@@ -32,23 +33,29 @@ function App() {
       <div className="content-title">
         <p>Your current timezone is : Asia/Bangkok</p>
       </div>
-      <div className="card-container">
-        {Array.isArray(posts) &&
-          posts.map((post) => {
-            return (
-              <PostCard
-                key={post.id}
-                postTitle={post.title}
-                postBody={post.body}
-                postImg={post.image_url}  
-                imgAlt ={`image post ${post.id}`}        
-              
-              />
-            );
-          })}
-      </div>
+      <section className="card-container">
+     
+          {Array.isArray(posts) &&
+            posts.map((post) => {
+              return (
+                <PostCard
+                  key={post.id.toString()}
+                  authorPost={
+                    Array.isArray(authors) &&
+                    authors.filter((anuthor) => anuthor.id === post.author_id)
+                  }
+                  postTitle={post.title}
+                  postBody={post.body}
+                  postImg={post.image_url}
+                  imgAlt={`image post ${post.id}`}
+                  postCreated={post.created_at}
+                />
+              );
+            })}
+       
+      </section>
     </div>
   );
-}
+};
 
 export default App;
