@@ -12,25 +12,25 @@ view reference image :point_right: [:framed_picture:](http://maqe.github.io/img/
 
 After reading the proposition thoroughly. 
 
-**Step one**\
-\
-Analyze layouts, and styles with Figma for share component and planning,share component create template with react.j on 1 hour.\
-View Drafts click on  \
-\
-:point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/juyG9qZyVutTZW2dWfRArq/Template-and-Styling?node-id=0%3A1) \
-\
+**Step one**
 
-**Step two**\
+Analyze layouts, and styles with Figma for design components and planning create a template with react.js in 1 hour.
+View Drafts click on 
 \
-Analyze layouts, and styles with Figma for design and planning, HTML and CSS writing on 1 hour.\
-View Drafts click on  \
 \
-:point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/juyG9qZyVutTZW2dWfRArq/Template-and-Styling?node-id=0%3A1) \
+:point_right: [![image](https://static.figma.com/app/icon/1/favicon.png)](https://www.figma.com/file/juyG9qZyVutTZW2dWfRArq/Template-and-Styling?node-id=0%3A1) 
+
 \
-**Step three**\
+**Step two**
+
+
+Create a template with React by copying content posts data provided by MAQE and using it to simulate a close to the reference image in 30 minutes.
+
 \
-Write code within 1 hour by sending the message "Edit CSS 1" to commit After 1 hour has passed, I reviewed and improved a little before 
-committing the latest version .You can view it on  my GitHub.\
+**Step three**
+
+
+Use the Axios request to get the data source post from the JSON file in the source API provided by MAQE. To be used to create the content of the post to display on the web page in 30 minutes and send the message "Create In 1 hr" to commit. \
 \
 :point_right: 
 [![image](https://github.githubassets.com/favicons/favicon.svg)](https://github.com/wichapol/MAQE-Homework/tree/main/frontend/template-styling) 
