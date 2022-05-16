@@ -31,6 +31,12 @@ Create a template with React by copying content posts data provided by MAQE and 
 
 
 Use the Axios request to get the data source post from the JSON file in the source API provided by MAQE. To be used to create the content of the post to display on the web page in 30 minutes and send the message "Create In 1 hr" to commit. \
+
 \
+**Step four**
+
+After 1 hour as recommended, I use the Axios request to get the data source authors of the JSON file data sources within the source API provided by MAQE. I use the filter method to render the author's information for posting on the webpage and improve the layout style.
+to be the same as the reference image as much as possible before committing to the latest version. You can be seen on my GitHub.
+
 :point_right: 
 [![image](https://github.githubassets.com/favicons/favicon.svg)](https://github.com/wichapol/MAQE-Homework/tree/main/frontend/template-styling) 
