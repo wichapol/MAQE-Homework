@@ -15,8 +15,7 @@ View Drafts click on  \
 \
 **Step two**\
 \
-Write code within 1 hour by send the message "Edit CSS 1" to commit After 1 hour has passed, I reviewed and improved a little before 
-committing the latest version .You can view it on  my GitHub.\
+Write code within 1 hour by sending the message "Edit CSS 1" to commit After 1 hour, I reviewed and improved a little before. Committing the latest version.You can view it on my GitHub.
 \
 :point_right: 
 [![image](https://github.githubassets.com/favicons/favicon.svg)](https://github.com/wichapol/MAQE-Homework/tree/main/frontend/CSS%20Styling) 
