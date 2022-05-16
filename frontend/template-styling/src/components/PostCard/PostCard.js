@@ -39,13 +39,11 @@ const PostCard = ({
         {anuthorInfo(authorPost)}
         {postedOn(postCreated)}
       </div>
-      <hr />
       <div className="content">
         <div className="content-text">
           <h4>{postTitle}</h4>
           <p>{postBody}</p>
         </div>
-
         <img src={postImg} alt={imgAlt} />
       </div>
     </div>
