@@ -35,6 +35,8 @@ body {
     border: 15px solid #67C3E9;
     box-shadow: 39px 42px 32px -32px rgba(84, 84, 84, 0.5), 36px 61px 60px -16px rgba(175, 175, 175, 0.25);
     border-radius: 45px;
+
+    padding: 1.25%;
 }
 
 .rectangle-2 {
@@ -46,9 +48,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 25px;
-    width: calc(100% - 50px);
-    height: calc(100% - 50px);
+    padding: 2.5%;
+    width: calc(100%);
+    height: calc(100%);
     background: linear-gradient(180deg, #69C4E8 0%, #9BD4D2 100%);
     border-radius: 15px;
 }
