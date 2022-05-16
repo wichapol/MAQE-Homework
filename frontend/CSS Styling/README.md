@@ -15,7 +15,7 @@ View Drafts click on  \
 \
 **Step two**\
 \
-Write code within 1 hour by sending the message "Edit CSS 1" to commit After 1 hour has passed, I reviewed and improved a little before 
+Write code within 1 hour by send the message "Edit CSS 1" to commit After 1 hour has passed, I reviewed and improved a little before 
 committing the latest version .You can view it on  my GitHub.\
 \
 :point_right: 
