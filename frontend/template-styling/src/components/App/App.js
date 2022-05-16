@@ -39,7 +39,7 @@ const App = () => {
             posts.map((post) => {
               return (
                 <PostCard
-                  key={post.id.toString()}
+                  key={`postCard-${post.id.toString()}`}
                   authorPost={
                     Array.isArray(authors) &&
                     authors.filter((anuthor) => anuthor.id === post.author_id)

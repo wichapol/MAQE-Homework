@@ -11,17 +11,15 @@ const PostCard = ({
 }) => {
   // Create tag anuthor post
   function anuthorInfo(anuthor) {
-    return (
-      Array.isArray(anuthor) &&
-      anuthor.map((value) => {
+    if(Array.isArray(anuthor)){
+        const value = anuthor[0]
         return (
-          <>
-            <img src={value.avatar_url} alt={`avatar ${value.id}`} />
-            <strong>{value.name}</strong>
-          </>
-        );
-      })
-    );
+            <>
+              <img src={value.avatar_url} alt={`avatar ${value.id}`} />
+              <strong>{value.name}</strong>
+            </>
+          );
+    }   
   }
 
   // Create tag time posted on

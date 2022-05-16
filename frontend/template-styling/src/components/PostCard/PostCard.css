@@ -65,3 +65,7 @@
     padding-bottom: 5px;
     line-height: 30px;
 }
+
+.content img{
+    border: 1px solid #d5d5d5 ;
+}
