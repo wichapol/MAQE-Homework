@@ -26,7 +26,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="warpper">
+    <div className="wrapper">
       <header className="content-header">
         <h1>MAQE Forum</h1>
       </header>
